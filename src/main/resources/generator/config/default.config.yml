@@ -1,0 +1,17 @@
+#代码默认配置
+#全局配置
+global:
+       author: nathaniel
+       basePackage: com.nathaniel.generator
+       servicePackage: service
+       mapperClassPackage: mapper
+       mapperXmlPackage: mapper
+       serviceNameSuffix: Service
+       mapperClassNameSuffix: Mapper
+       mapperXmlNameSuffix: Mapper
+#数据库配置
+db:
+   driverClass: com.mysql.jdbc.Driver
+   url: jdbc:mysql://119.23.139.198:3306/credit_core_capital?characterEncoding=UTF-8
+   user: root
+   password: root
