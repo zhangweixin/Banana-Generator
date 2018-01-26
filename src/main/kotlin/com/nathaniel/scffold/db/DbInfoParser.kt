@@ -3,6 +3,8 @@ package com.nathaniel.scffold.db
 import cn.hutool.core.util.StrUtil
 import cn.hutool.db.SqlRunner
 import cn.hutool.db.handler.RsHandler
+import com.nathaniel.scffold.plugin.DbMetaInfoExtracter
+import com.nathaniel.scffold.plugin.DbMetaInfoSqlProvider
 import java.sql.ResultSet
 import javax.sql.DataSource
 
