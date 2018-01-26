@@ -1,4 +1,4 @@
-package com.nathaniel.banana.db
+package com.nathaniel.banana.model
 
 class TableInfo(val entityTableName: String,
                 val primitiveTableName: String,

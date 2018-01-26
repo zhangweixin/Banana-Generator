@@ -1,4 +1,4 @@
-package com.nathaniel.banana.db
+package com.nathaniel.banana.model
 
 data class ColumnInfo(
         var entityColumnName: String,

@@ -3,6 +3,8 @@ package com.nathaniel.banana.db
 import cn.hutool.core.util.StrUtil
 import cn.hutool.db.SqlRunner
 import cn.hutool.db.handler.RsHandler
+import com.nathaniel.banana.model.ColumnInfo
+import com.nathaniel.banana.model.TableInfo
 import com.nathaniel.banana.plugin.DbMetaInfoExtracter
 import com.nathaniel.banana.plugin.DbMetaInfoSqlProvider
 import java.sql.ResultSet
