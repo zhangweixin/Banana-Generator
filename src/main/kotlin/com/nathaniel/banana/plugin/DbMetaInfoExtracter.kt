@@ -1,9 +1,9 @@
-package com.nathaniel.scffold.plugin
+package com.nathaniel.banana.plugin
 
-import com.nathaniel.scffold.db.DbColumnInfo
-import com.nathaniel.scffold.db.DbTableInfo
-import com.nathaniel.scffold.db.DbType
-import com.nathaniel.scffold.db.ResultWrapper
+import com.nathaniel.banana.db.DbColumnInfo
+import com.nathaniel.banana.db.DbTableInfo
+import com.nathaniel.banana.db.DbType
+import com.nathaniel.banana.db.ResultWrapper
 
 interface DbMetaInfoExtracter {
 

@@ -1,6 +1,6 @@
-package com.nathaniel.scffold.plugin
+package com.nathaniel.banana.plugin
 
-import com.nathaniel.scffold.db.DbType
+import com.nathaniel.banana.db.DbType
 import org.springframework.stereotype.Component
 
 @Component
