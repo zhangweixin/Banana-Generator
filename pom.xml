@@ -20,6 +20,7 @@
         <hikari.version>2.7.5</hikari.version>
         <snakeyaml.version>1.18</snakeyaml.version>
         <mysqldriver.version>6.0.5</mysqldriver.version>
+        <beetl.version>2.7.26</beetl.version>
     </properties>
 
     <dependencies>
@@ -82,6 +83,13 @@
             <artifactId>hutool-db</artifactId>
             <version>${hutool.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.ibeetl</groupId>
+            <artifactId>beetl</artifactId>
+            <version>${beetl.version}</version>
+        </dependency>
+
 
     </dependencies>
 
