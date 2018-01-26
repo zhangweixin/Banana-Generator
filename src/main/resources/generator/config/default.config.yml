@@ -9,6 +9,7 @@ global:
        serviceNameSuffix: Service
        mapperClassNameSuffix: Mapper
        mapperXmlNameSuffix: Mapper
+       useCamelbak: true
 #数据库配置
 db:
    driverClass: com.mysql.jdbc.Driver

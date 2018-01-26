@@ -20,5 +20,7 @@ data class GlobalConfig(
         @Value("\${global.mapperClassNameSuffix}")
         val mapperClassNameSuffix: String,
         @Value("\${global.mapperXmlNameSuffix}")
-        val mapperXmlNameSuffix: String
+        val mapperXmlNameSuffix: String,
+        @Value("\${global.useCamelbak:ture}")
+        val useCamelbak:Boolean
 )
