@@ -1,5 +1,6 @@
-package com.nathaniel.banana.plugin
+package com.nathaniel.banana.plugin.defaultimpl
 
+import com.nathaniel.banana.plugin.ConfigurableComponent
 import org.springframework.stereotype.Component
 
 @Component

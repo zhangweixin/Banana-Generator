@@ -1,6 +1,7 @@
-package com.nathaniel.banana.plugin
+package com.nathaniel.banana.plugin.defaultimpl
 
 import com.nathaniel.banana.db.DbType
+import com.nathaniel.banana.plugin.DbMetaInfoSqlProvider
 import org.springframework.stereotype.Component
 
 @Component

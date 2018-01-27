@@ -1,4 +1,6 @@
-package com.nathaniel.banana.plugin
+package com.nathaniel.banana.plugin.defaultimpl
+
+import com.nathaniel.banana.plugin.ConfigurableComponent
 
 open class DefaultConfigerAdaptor : ServiceConfiger, MapperClassConfiger, MapperXmlConfiger, ControllerConfiger {
     override fun configServie(configurableComponent: ConfigurableComponent, entityTableName: String) {

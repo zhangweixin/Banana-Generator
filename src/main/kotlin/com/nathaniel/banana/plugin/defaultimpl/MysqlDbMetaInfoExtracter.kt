@@ -1,9 +1,10 @@
-package com.nathaniel.banana.plugin
+package com.nathaniel.banana.plugin.defaultimpl
 
 import com.nathaniel.banana.db.DbColumnInfo
 import com.nathaniel.banana.db.DbTableInfo
 import com.nathaniel.banana.db.DbType
 import com.nathaniel.banana.db.ResultWrapper
+import com.nathaniel.banana.plugin.DbMetaInfoExtracter
 import org.springframework.stereotype.Component
 
 @Component
